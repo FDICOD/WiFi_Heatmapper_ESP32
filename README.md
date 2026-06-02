@@ -140,6 +140,11 @@ RSSI measurements are recorded for each grid cell and visualized in real time.
 
 After completing all measurements, the system displays statistical information for the collected dataset.
 
+<p align="center">
+  <img src="images/device_summary.jpeg" width="60%"><br>
+  <em>Summary Screen</em>
+</p>
+
 ---
 
 # Future Improvements
