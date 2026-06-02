@@ -28,8 +28,7 @@ The project was also designed as an embedded systems and microcontroller-oriente
 
 ## Design Choice
 
-The current implementation uses a manually sampled cell by cell mapping approach. This design was chosen because it is significantly simpler and more cost effective than implementing location aware positioning systems such as GPS, indoor localization, or simultaneous mapping methods. Since GPS is unreliable indoors and additional localization hardware would increase system complexity and cost, the project instead relies on manual spatial sampling across a predefined grid.
-
+The current implementation uses a manually sampled cell by cell mapping approach. This design was chosen because it is significantly simpler and more cost effective than implementing location aware positioning systems such as GPS, indoor localization, or simultaneous mapping methods.
 
 ---
 
@@ -103,7 +102,7 @@ Once all grid cells have been sampled, the system generates a statistical summar
 
 ## Display Calibration
 
-The ST7789 display module used in this project exhibited inverted color behavior relative to the intended heatmap representation. To compensate for this, the RSSI-to-color mapping logic was adjusted in software so that the displayed colors correctly represented signal strength categories (tft.invertDisplay(true) which usually works, didn't).
+The ST7789 display module used in this project exhibited inverted color behavior relative to the intended heatmap representation. To compensate for this, the RSSI-to-color mapping logic was adjusted in software so that the displayed colors correctly represented signal strength categories (tft.invertDisplay(true) usually works, didn't work for this display).
 
 
 ---
@@ -128,20 +127,6 @@ After completing all measurements, the system displays statistical information f
 
 ---
 
-# Project Structure
-
-```text
-WiFi_Heatmapper_ESP32/
-│
-├── README.md
-├── code/
-├── docs/
-├── images/
-└── schematics/
-```
-
----
-
 # Future Improvements
 
 * Automatic sampling intervals
@@ -155,8 +140,6 @@ WiFi_Heatmapper_ESP32/
 
 * Indoor WiFi coverage analysis
 * Router placement optimization
-* RF signal visualization
-* Educational demonstrations for wireless networking
 * Embedded systems and IoT experimentation
 
 ---
