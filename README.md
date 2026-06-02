@@ -9,13 +9,13 @@ The system allows a user to scan nearby WiFi networks, select a target SSID, and
 The project combines embedded systems, wireless networking, graphical rendering, and real-time data acquisition into a portable standalone device.
 
 <p align="center">
-  <img src="images/device_mirror.jpeg" width="45%">
-  <img src="images/device_wiring.jpeg" width="45%">
+  <img src="images/device_mirror.jpg" width="45%">
+  <img src="images/device_wiring.jpg" width="45%">
 </p>
 
 <p align="center">
-  <em>Prototype</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <em>Wiring</em>
+  <span style="display:inline-block; width:45%; text-align:center;"><em>Prototype</em></span>
+  <span style="display:inline-block; width:45%; text-align:center;"><em>Wiring</em></span>
 </p>
 
 ---
