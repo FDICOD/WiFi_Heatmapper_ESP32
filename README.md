@@ -14,8 +14,13 @@ The project combines embedded systems, wireless networking, graphical rendering,
 </p>
 
 <p align="center">
-  <span style="display:inline-block; width:45%; text-align:center;"><em>Prototype</em></span>
-  <span style="display:inline-block; width:45%; text-align:center;"><em>Wiring</em></span>
+  <span style="display:inline-block; width:45%; text-align:center; margin-right:2%;">
+    <em>Prototype</em>
+  </span>
+
+  <span style="display:inline-block; width:45%; text-align:center;">
+    <em>Wiring</em>
+  </span>
 </p>
 
 ---
