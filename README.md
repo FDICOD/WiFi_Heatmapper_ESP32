@@ -19,7 +19,7 @@ The project combines embedded systems, wireless networking, graphical rendering,
   </span>
 
   <span style="display:inline-block; width:45%; text-align:center;">
-    <em>Wiring</em>
+    <em>and wiring</em>
   </span>
 </p>
 
