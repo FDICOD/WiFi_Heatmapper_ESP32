@@ -102,6 +102,11 @@ Once all grid cells have been sampled, the system generates a statistical summar
 * Worst RSSI value
 * Average RSSI value
 
+<p align="center">
+  <img src="images/device_selection.jpeg" width="60%"><br>
+  <em>SSID Selection</em>
+</p>
+
 ---
 
 # RSSI Color Mapping
@@ -139,11 +144,6 @@ RSSI measurements are recorded for each grid cell and visualized in real time.
 ## 4. Summary Screen
 
 After completing all measurements, the system displays statistical information for the collected dataset.
-
-<p align="center">
-  <img src="images/device_summary.jpeg" width="60%"><br>
-  <em>Summary Screen</em>
-</p>
 
 ---
 
